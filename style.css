@@ -1,0 +1,332 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: min(1950px, 100%);
+  margin: 0 auto;
+  padding: 33px 38px;
+  background-color: #D69E36;
+  font-family: "Inter", sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+header .ny {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-left: 97px;
+}
+header .ny h2 {
+  width: 196px;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  vertical-align: middle;
+  color: #FFFFFF;
+  margin-bottom: 4rem;
+}
+header .ny h1 {
+  width: 202px;
+  font-weight: 500;
+  font-size: 64px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #FFFFFF;
+}
+header .ny p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #FFFFFF;
+}
+header .ny .newyork {
+  display: flex;
+  gap: 0.4rem;
+  align-items: end;
+  margin-bottom: 2rem;
+}
+header .ny .newyork h3 {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #FFFFFF;
+  text-align: button;
+}
+header .ny .newyork img {
+  width: 30px;
+  height: 30px;
+}
+header .clock {
+  top: 50%;
+  left: 50%;
+  color: #ffffff;
+  font-size: 60px;
+  font-family: Orbitron;
+  letter-spacing: 7px;
+  border-radius: 100px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+main .article1 {
+  width: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+  padding: 20px;
+  border-radius: 40px;
+  background-color: #DEAB4D;
+}
+main .article1 .pic {
+  width: 60px;
+  height: 60px;
+  margin-bottom: 3rem;
+  border-radius: 50%;
+  overflow: hidden;
+}
+main .article1 .card img {
+  width: 50px;
+  height: 50px;
+  text-align: center;
+}
+main .article1 .card p {
+  height: 16px;
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  vertical-align: middle;
+  color: #FFFFFF;
+  text-align: center;
+}
+main .article2 {
+  width: 884px;
+  height: -moz-max-content;
+  height: max-content;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+main .article2 .activities {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  padding: 1rem 2.5rem;
+  background-color: #DEAB4D;
+  border-radius: 40px;
+}
+main .article2 .activities .title {
+  display: flex;
+  gap: 0.7rem;
+}
+main .article2 .activities .title img {
+  width: 30px;
+  height: 25px;
+}
+main .article2 .activities .title h3 {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  vertical-align: middle;
+  color: #FFFFFF;
+}
+main .article2 .activities .cards {
+  margin-bottom: 2rem;
+  display: flex;
+  gap: 1.5rem;
+  padding-inline: 1rem;
+}
+main .article2 .activities .cards .card p {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  vertical-align: middle;
+  color: #2B261D;
+}
+main .article2 .forecast {
+  width: 100%;
+  height: 262px;
+  background: #DEAB4D url(./img/Vector\ 1.png) no-repeat center;
+  border-radius: 40px;
+  padding: 1rem 2.5rem;
+}
+main .article2 .forecast .title {
+  display: flex;
+  gap: 0.7rem;
+  margin-bottom: 2rem;
+}
+main .article2 .forecast .title img {
+  width: 16.3769626617px;
+  height: 16.3769626617px;
+}
+main .article2 .forecast .title h4 {
+  font-weight: 500;
+  font-size: 14.33px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #FFFFFF;
+}
+main .article3 {
+  background: #DEAB4D url(./img/Vector\ 8.png) no-repeat bottom right;
+  border-radius: 40px;
+  padding: 3rem 1rem;
+}
+main .article3 h3 {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  vertical-align: middle;
+  color: #FFFFFF;
+}
+main .article3 .ac {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+main .article3 .ac .card .aa {
+  display: flex;
+  gap: 0.6rem;
+  align-items: center;
+}
+main .article3 .ac .card .aa p {
+  font-weight: 550;
+  font-size: 12px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  vertical-align: middle;
+  color: #FFFFFF;
+}
+main .article3 .ac .card h4 {
+  margin-left: 2rem;
+  text-align: start;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  vertical-align: middle;
+  color: #FFFFFF;
+}
+
+@media (max-width: 900px) {
+  body {
+    padding: 20px;
+    background-color: #D69E36;
+  }
+  header {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  header .ny {
+    margin-left: 0;
+    gap: 1rem;
+  }
+  header .ny h2 {
+    font-size: 36px;
+  }
+  header .ny h1 {
+    font-size: 48px;
+  }
+  header .ny p {
+    font-size: 16px;
+  }
+  header .ny .newyork {
+    flex-direction: column;
+    align-items: center;
+  }
+  header .ny .newyork h3 {
+    font-size: 20px;
+  }
+  header .ny .newyork img {
+    width: 40px;
+    height: 40px;
+  }
+  header .cld img {
+    width: 80px;
+    height: 80px;
+  }
+  main {
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+  }
+  main .article1 {
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  main .article1 .card img {
+    width: 40px;
+    height: 40px;
+  }
+  main .article1 .card p {
+    font-size: 12px;
+  }
+  main .article2 {
+    width: 100%;
+  }
+  main .article2 .activities {
+    padding: 1rem;
+  }
+  main .article2 .activities .cards {
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+  main .article2 .activities .cards .card {
+    flex: 1 1 calc(50% - 1rem);
+    text-align: center;
+  }
+  main .article2 .activities .cards .card img {
+    width: 60px;
+    height: 60px;
+  }
+  main .article2 .activities .cards .card p {
+    font-size: 14px;
+  }
+  main .article2 .forecast {
+    padding: 1rem;
+  }
+  main .article2 .forecast .title {
+    flex-direction: column;
+    align-items: center;
+  }
+  main .article2 .forecast .title h4 {
+    font-size: 14px;
+    text-align: center;
+  }
+  main .article3 {
+    padding: 1rem;
+  }
+  main .article3 .ac {
+    flex-direction: column;
+    gap: 1rem;
+  }
+  main .article3 .ac .card {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  main .article3 .ac .card h4 {
+    font-size: 14px;
+  }
+}/*# sourceMappingURL=style.css.map */

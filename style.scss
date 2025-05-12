@@ -1,0 +1,488 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: min(1950px, 100%);
+    margin: 0 auto;
+    padding: 33px 38px;
+    background-color: #D69E36;
+    font-family: "Inter", sans-serif;
+    
+}
+
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+
+
+    .ny {
+        display: flex;
+        flex-direction: column;
+        gap: .5rem;
+        margin-left: 97px;
+
+        h2 {
+            width: 196px;
+            font-weight: 500;
+            font-size: 48px;
+            line-height: 100%;
+            letter-spacing: 0%;
+            vertical-align: middle;
+            color: #FFFFFF;
+            margin-bottom: 4rem;
+        }
+
+        h1 {
+            width: 202px;
+            font-weight: 500;
+            font-size: 64px;
+            line-height: 100%;
+            letter-spacing: 0%;
+            color: #FFFFFF;
+        }
+
+        p {
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 100%;
+            letter-spacing: 0%;
+            color: #FFFFFF;
+        }
+
+        .newyork {
+            display: flex;
+            gap: .4rem;
+            align-items: end;
+            margin-bottom: 2rem;
+            
+
+            h3 {
+                font-weight: 500;
+                font-size: 24px;
+                line-height: 100%;
+                letter-spacing: 0%;
+                color: #FFFFFF;
+                text-align: button;
+            }
+            img {
+                width: 30px;
+                height: 30px;
+            }
+        }
+    }
+
+
+    .clock {
+        top: 50%;
+        left: 50%;
+        color: #ffffff;
+        font-size: 60px;
+        font-family: Orbitron;
+        letter-spacing: 7px;
+        // border: solid;
+        border-radius: 100px;
+        // border: 1px solid;
+        padding: 20px;
+        // background-color: #a48241;
+        display: flex;
+        align-items: center;
+        
+        
+    }
+}
+
+
+// @media (max-width: 900px) {
+//     body {
+//         padding: 20px;
+//         background-color: rgb(120, 120, 73);
+//     }
+
+//     header {
+//         flex-direction: column;
+//         align-items: center;
+//         text-align: center;
+
+//         .ny {
+//             margin-left: 0;
+//             gap: 1rem;
+
+//             h2 {
+//                 font-size: 36px;
+//             }
+
+//             h1 {
+//                 font-size: 48px;
+//             }
+
+//             p {
+//                 font-size: 16px;
+//             }
+
+//             .newyork {
+//                 flex-direction: column;
+//                 align-items: center;
+
+//                 h3 {
+//                     font-size: 20px;
+//                 }
+
+//                 img {
+//                     width: 40px;
+//                     height: 40px;
+//                 }
+//             }
+//         }
+
+//         .cld img {
+//             width: 80px;
+//             height: 80px;
+//         }
+//     }
+
+// }
+
+
+main {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 2rem;
+    // border: solid;
+
+
+    .article1 {
+        width: 100px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1.5rem;
+        padding: 20px;
+        // border: #44423d 1px solid;
+        border-radius: 40px;
+        background-color: #DEAB4D;
+
+
+        .pic {
+            width: 60px;
+            height: 60px;
+            margin-bottom: 3rem;
+            border-radius: 50%;
+            overflow: hidden;
+        }
+
+
+        .card {
+            
+            img {
+                width: 50px;
+                height: 50px;
+                text-align: center;
+                // border: 1px solid;
+            }
+
+            p {
+                // width: 80px;
+                height: 16px;
+                font-size: 14px;
+                line-height: 100%;
+                letter-spacing: 0%;
+                vertical-align: middle;
+                color: #FFFFFF;
+                text-align: center;
+                // border: 1px solid;
+
+
+            }
+        }
+
+    }
+
+    .article2 {
+        width: 884px;
+        height: max-content;
+        
+        
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+
+        .activities {
+            // border: solid;
+            display: flex;
+            flex-direction: column;
+            gap: 3rem;
+            padding: 1rem 2.5rem;
+            background-color: #DEAB4D;
+            border-radius: 40px;
+
+
+            .title {
+                display: flex;
+                gap: .7rem;
+                
+
+                img {
+                    width: 30px;
+                    height: 25px;
+                }
+                h3 {
+                    font-weight: 500;
+                    font-size: 24px;
+                    line-height: 100%;
+                    letter-spacing: 0%;
+                    vertical-align: middle;
+                    color: #FFFFFF;
+                }
+            }
+    
+    
+            .cards {
+                // margin-top: 2.5rem;
+                margin-bottom: 2rem;
+                display: flex;
+                gap: 1.5rem;
+                padding-inline: 1rem;
+                // border: solid;
+    
+    
+                .card {
+                    
+    
+                    p {
+                        font-weight: 500;
+                        font-size: 12px;
+                        line-height: 100%;
+                        letter-spacing: 0%;
+                        vertical-align: middle;
+                        color: #2B261D;
+                    }
+                }
+            }
+        }
+
+
+        .forecast {
+            width: 100%;
+            height: 262px;
+            background:  #DEAB4D url(./img/Vector\ 1.png) no-repeat center;
+            border-radius: 40px;
+            padding: 1rem 2.5rem;
+
+            .title {
+                display: flex;
+                gap: .7rem;
+                margin-bottom: 2rem;
+                
+                img {
+                    width: 16.376962661743164px;
+                    height: 16.376962661743164px;
+                }
+
+                h4 {
+                    font-weight: 500;
+                    font-size: 14.33px;
+                    line-height: 100%;
+                    letter-spacing: 0%;
+                    color: #FFFFFF;
+                }
+
+                
+            }
+        }
+
+
+    }
+
+    .article3 {
+        background: #DEAB4D url(./img/Vector\ 8.png) no-repeat bottom right;
+        border-radius: 40px;
+        padding: 3rem 1rem;
+
+        h3 {
+            margin-top: 2rem;
+            margin-bottom: 2rem;
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 100%;
+            letter-spacing: 0%;
+            vertical-align: middle;
+            color: #FFFFFF;
+
+        }
+
+        .ac{
+            display: flex;
+            flex-direction: column;
+            gap: 2rem;
+
+            .card {
+                // width: max-content;
+                .aa {
+                    display: flex;
+                    gap: .6rem;
+                    align-items: center;
+
+                    p {
+                        font-weight: 550;
+                        font-size: 12px;
+                        line-height: 100%;
+                        letter-spacing: 0%;
+                        vertical-align: middle;
+                        color: #FFFFFF;
+                    }
+                }
+
+                h4 {
+                    margin-left: 2rem;
+                    text-align: start;
+                    font-weight: 500;
+                    font-size: 16px;
+                    line-height: 100%;
+                    letter-spacing: 0%;
+                    vertical-align: middle;
+                    color: #FFFFFF;
+                }
+            }
+        }
+    }
+    
+}
+
+
+@media (max-width: 900px) {
+    body {
+        padding: 20px;
+        background-color: #D69E36; // Kichik ekranlar uchun fon rangini saqlash
+    }
+
+    header {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+
+        .ny {
+            margin-left: 0;
+            gap: 1rem;
+
+            h2 {
+                font-size: 36px;
+            }
+
+            h1 {
+                font-size: 48px;
+            }
+
+            p {
+                font-size: 16px;
+            }
+
+            .newyork {
+                flex-direction: column;
+                align-items: center;
+
+                h3 {
+                    font-size: 20px;
+                }
+
+                img {
+                    width: 40px;
+                    height: 40px;
+                }
+            }
+        }
+
+        .cld img {
+            width: 80px;
+            height: 80px;
+        }
+    }
+
+    main {
+        flex-direction: column;
+        align-items: center;
+        gap: 1.5rem;
+
+        .article1 {
+            width: 100%;
+            flex-direction: row;
+            justify-content: space-around;
+
+            .card {
+                img {
+                    width: 40px;
+                    height: 40px;
+                }
+
+                p {
+                    font-size: 12px;
+                }
+            }
+        }
+
+        .article2 {
+            width: 100%;
+
+            .activities {
+                padding: 1rem;
+
+                .cards {
+                    flex-wrap: wrap;
+                    gap: 1rem;
+
+                    .card {
+                        flex: 1 1 calc(50% - 1rem);
+                        text-align: center;
+
+                        img {
+                            width: 60px;
+                            height: 60px;
+                        }
+
+                        p {
+                            font-size: 14px;
+                        }
+                    }
+                }
+            }
+
+            .forecast {
+                padding: 1rem;
+
+                .title {
+                    flex-direction: column;
+                    align-items: center;
+
+                    h4 {
+                        font-size: 14px;
+                        text-align: center;
+                    }
+                }
+            }
+        }
+
+        .article3 {
+            padding: 1rem;
+
+            .ac {
+                flex-direction: column;
+                gap: 1rem;
+
+                .card {
+                    flex-direction: row;
+                    justify-content: space-between;
+
+                    h4 {
+                        font-size: 14px;
+                    }
+                }
+            }
+        }
+    }
+}
+
